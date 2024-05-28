@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{DEB3D939-F9F0-4935-AF57-137CD2CDE273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cimas.Api", "Src\Cimas.Api\Cimas.Api.csproj", "{E3D580DB-D56A-49A2-86CA-E65D4E51E110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cimas.Application", "Src\Cimas.Application\Cimas.Application.csproj", "{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cimas.Infrastructure", "Src\Cimas.Infrastructure\Cimas.Infrastructure.csproj", "{3679A1C0-78D1-46FE-B477-334E5CD15882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cimas.Domain", "Src\Cimas.Domain\Cimas.Domain.csproj", "{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cimas.IntegrationTests", "Tests\Cimas.IntegrationTests\Cimas.IntegrationTests.csproj", "{ADF4AE6C-42A8-4130-8B20-506966F6DF12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{80000E85-3686-4B7F-A1FF-B0E322B37276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D580DB-D56A-49A2-86CA-E65D4E51E110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D580DB-D56A-49A2-86CA-E65D4E51E110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D580DB-D56A-49A2-86CA-E65D4E51E110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D580DB-D56A-49A2-86CA-E65D4E51E110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3679A1C0-78D1-46FE-B477-334E5CD15882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3679A1C0-78D1-46FE-B477-334E5CD15882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3679A1C0-78D1-46FE-B477-334E5CD15882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3679A1C0-78D1-46FE-B477-334E5CD15882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF4AE6C-42A8-4130-8B20-506966F6DF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF4AE6C-42A8-4130-8B20-506966F6DF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF4AE6C-42A8-4130-8B20-506966F6DF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF4AE6C-42A8-4130-8B20-506966F6DF12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3D580DB-D56A-49A2-86CA-E65D4E51E110} = {DEB3D939-F9F0-4935-AF57-137CD2CDE273}
+		{FFB1635C-6ECE-4EC8-86F9-56DCBBA1AAFE} = {DEB3D939-F9F0-4935-AF57-137CD2CDE273}
+		{3679A1C0-78D1-46FE-B477-334E5CD15882} = {DEB3D939-F9F0-4935-AF57-137CD2CDE273}
+		{BB61A78C-9F5C-4B85-994F-8B8F800E6A1C} = {DEB3D939-F9F0-4935-AF57-137CD2CDE273}
+		{ADF4AE6C-42A8-4130-8B20-506966F6DF12} = {80000E85-3686-4B7F-A1FF-B0E322B37276}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ADC56B3-458C-4FC0-919A-DB350D8CAE08}
+	EndGlobalSection
+EndGlobal
